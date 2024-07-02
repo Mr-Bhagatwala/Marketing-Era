@@ -1,0 +1,138 @@
+
+.aboutus{
+    display: flex;
+    justify-content:space-around;
+    /* margin: 100px; */
+    padding: 50px;
+    margin-top: 50px;
+    /* background-color: aqua; */
+}
+.aboutus img{
+    height:300px;
+}
+.aboutus .info{
+    padding-top: 15px;
+    color: #fff;
+}
+.info .title1{
+    font-size: 20px;
+    color: #35DDA0;
+}
+.info .title2{
+    font-size: 40px;
+    line-height: 40px;
+    padding: 20px 0;
+}
+.info .help{
+    padding-top: 10px;
+}
+/* --------------------------------------------------------- */
+
+.work_flow{
+    /* background-color: #FA7225; */
+    background-color: #191717;
+    margin: 150px;
+    margin-bottom: 0px;
+    /* border: 2px solid linear-gradient(90deg, #191717 0%, #35DDA0 50%, #35DDA0 54%, #191717 100%); */
+    border-image: linear-gradient(90deg, #191717 0%, #35DDA0 50%, #35DDA0 54%, #191717 100%);
+    border-bottom: none;
+    /* height: 100vh; */
+    overflow-y: hidden;
+}
+.work_flow .flow{
+    margin-top: 40px;
+    padding-top: 250px;
+    transform: rotate(16deg);
+    height:1000px;
+    width: 2000px;
+    /* padding-right: 200px; */
+    margin-left: -80px;
+}
+.work_flow .maintitle{
+    padding-top: 60px;
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    /* background-color: red; */
+}
+.same .title{
+    font-size: 2rem;
+    color: #FA7225;
+    padding-right: 10px;
+}
+
+.flow .same{
+    /* background-color: rgb(31, 66, 66); */
+    padding: 50px;
+    padding-bottom: 0px;
+    /* border-bottom: 2px solid #35DDA0; */
+    
+    border-bottom-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(90deg, #191717 0%, #35DDA0 36%, #191717 71%) 1;
+    color: #fff;
+    border-top: none;
+    border-left: none;
+    /* transform: rotate(20deg); */
+}
+
+.work_flow .budget{
+    padding-left: 38%;
+}
+.work_flow .concept{
+    padding-left: 100px;
+}
+.work_flow .development{
+    padding-left: 150px;
+}
+.work_flow .result{
+    padding-left: 40%;
+}
+
+/* ------------------------------------------------------------- */
+.review{
+   
+    padding: 120px;
+    padding-top: 0px;
+}
+.review .head{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aqua; */
+    padding: 0 20px;
+}
+.review .head .head1{
+    font-size: 40px;
+    text-align: left;
+    color: #FA7225;
+}
+.review .head .head2{
+    font-size: 25px;
+    padding-top:70px;
+    color: #fff;
+}
+
+.reviews{
+    padding: 20px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: yellowgreen; */
+}
+.reviews .coma{
+    font-size: larger;
+    /* margin-right: 80px;
+    text-align: left !important;
+    right: 0px; */
+}
+
+.reviews .rev{
+    color: #fff;
+    margin: 0 0px;
+    /* background-color: red; */
+    width: 20%;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    border-top:1px solid #35DDA0;
+}
