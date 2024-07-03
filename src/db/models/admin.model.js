@@ -11,6 +11,6 @@ const connect_Admin = new mongoose.Schema({
     }
 })
 
-const Connect_Admin = new mongoose.model('Connect_Admin',connect_Admin);
+const Connect_Admin = new mongoose.model('Admin',connect_Admin);
 
 module.exports = Connect_Admin;

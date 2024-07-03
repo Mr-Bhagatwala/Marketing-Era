@@ -4,7 +4,6 @@ import '../css/Register.css';
 // import './Registerngo.css';
 
 const closepopup=()=>{
-
 	
 }
 const Register =(props)=> {

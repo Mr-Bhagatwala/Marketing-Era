@@ -4,10 +4,10 @@ const app = express();
 const cors = require('cors')
 require('./connection')
 
-const UserInfo = require('./UserSchema');
+const UserInfo = require('./models/User.model.js');
 const Review = require('./contact_schema')
-const  Register_course= require('./regschema')
-const Connect_Admin = require('./connect_admin');
+const  Register_course= require('./models/course_registartion.js')
+const Connect_Admin = require('./models/admin.model.js');
 
 const sendemail = require("./sendMail");
 

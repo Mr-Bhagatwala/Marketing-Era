@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import NavbarAd from "./navbaradm";
+// import NavbarAd from "./adminnavbar";
 
 
 const List = ()=>{
@@ -39,7 +39,7 @@ const List = ()=>{
             </thead>
 <tbody>{
 item.map((it,index)=>{
-                <NavbarAd/>
+                // <NavbarAd/>
                 
                 return(
 <tr>
